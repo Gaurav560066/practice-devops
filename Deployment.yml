@@ -15,7 +15,7 @@ spec:
         app: apache2
     spec:
       containers:
-      - name: apache2-pod
+      - name: apache2
         image: apache2
         ports:
         - containerPort: 80
