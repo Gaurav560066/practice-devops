@@ -4,9 +4,9 @@ metadata:
   name: app-nodeport-svc
 spec:
   selector:
-    app: apache2
+    app: apache
   type: ClusterIP
   ports:
     - protocol: TCP
-      port: 30082
+      port: 8081
       targetPort: 80
