@@ -3,12 +3,12 @@ kind: Deployment
 metadata:
   name: apache2-deployment
   labels:
-    app: apache2
+    app: apache
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: apache2
+      app: apache
   template:
     metadata:
       labels:
